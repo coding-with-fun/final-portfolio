@@ -1,3 +1,8 @@
 .about__container {
-    height: 150vh;
+    min-height: calc(100vh - 2 * 77px);
+    background-color: pink;
+
+    .about__header {
+        padding-bottom: 200vh;
+    }
 }

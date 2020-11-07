@@ -3,14 +3,12 @@
 @import "./Body/Home.scss";
 
 .body__container {
-    .contact_me__container {
-        margin-bottom: 86px;
-        height: 150vh;
-    }
-
     .about__container,
     .contact_me__container,
-    .home__container {
+    .home__container,
+    .projects__container,
+    .skills__container {
+        min-height: calc(100vh - 2 * 77px);
         padding-top: 65px;
     }
 }

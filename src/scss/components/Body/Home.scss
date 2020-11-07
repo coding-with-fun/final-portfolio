@@ -70,6 +70,7 @@
                     color: #cc2f2f;
                     margin-left: 10px;
                     cursor: default;
+                    user-select: none;
                     height: 43px;
                     display: inline-block;
                 }
@@ -81,7 +82,7 @@
                     margin-top: -15px;
                     display: block;
                     background: #cc2f2f;
-                    transition: 300ms;
+                    transition: width 300ms linear;
                 }
 
                 .name:hover::after {

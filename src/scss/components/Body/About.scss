@@ -1,8 +1,17 @@
 .about__container {
     min-height: calc(100vh - 2 * 77px);
-    background-color: pink;
 
     .about__header {
-        padding-bottom: 200vh;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+
+        .header {
+            font-family: "Montserrat", sans-serif;
+            border-bottom: 3px solid var(--dark);
+            margin-bottom: 10px;
+            font-size: xx-large;
+            font-weight: 700;
+        }
     }
 }

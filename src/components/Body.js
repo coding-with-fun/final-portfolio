@@ -1,8 +1,7 @@
 import React from "react";
-
 import About from "./Body/About";
-import Home from "./Body/Home";
 import ContactMe from "./Body/ContactMe";
+import Home from "./Body/Home";
 
 const Body = () => {
     return (

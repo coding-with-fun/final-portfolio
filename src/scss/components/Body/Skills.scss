@@ -1,0 +1,42 @@
+.skills__container {
+    .skills__header {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+
+        .header {
+            font-family: "Montserrat", sans-serif;
+            border-bottom: 3px solid var(--dark);
+            margin-bottom: 10px;
+            font-size: xx-large;
+            font-weight: 700;
+        }
+    }
+
+    .skills__content {
+        .skills_list__container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            .languages__container,
+            .frameworks__container,
+            .tools__container,
+            .design__container {
+                background-color: #bfbfbf;
+                width: 125px;
+                margin: 20px;
+
+                .header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    cursor: pointer;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+// 660 - 494

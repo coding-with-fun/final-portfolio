@@ -23,36 +23,10 @@
             .frameworks__container,
             .tools__container,
             .design__container {
-                width: 125px;
-                margin: 20px;
-                border: 1px solid #bfbfbf;
                 height: fit-content;
-
-                .header {
-                    background-color: #bfbfbf;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    cursor: pointer;
-                    padding: 5px 0;
-                    font-weight: 700;
-
-                    .title {
-                        width: 100%;
-                        text-align: center;
-                    }
-                }
-
-                .data {
-                    .data_item {
-                        padding: 5px 0;
-                        border: 1px solid #bfbfbf;
-                    }
-
-                    .data_item:nth-child(even) {
-                        background-color: #ececec;
-                    }
-                }
+                margin: 10px 20px;
+                min-width: 181px;
+                text-align: center;
             }
         }
     }

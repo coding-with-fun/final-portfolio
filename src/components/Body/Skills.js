@@ -9,53 +9,45 @@ const Skills = () => {
 
             <div className="skills__content container">
                 <div className="skills_list__container container">
-                    <div className="languages__container">
-                        <div className="header">
-                            <div className="title">Languages</div>
-                        </div>
-                        <div className="data">
-                            <div className="data_item">Python</div>
-                            <div className="data_item">HTML</div>
-                            <div className="data_item">CSS</div>
-                            <div className="data_item">JavaScript</div>
-                        </div>
+                    <div className="card languages__container">
+                        <div class="card-header ">Languages</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Python</li>
+                            <li class="list-group-item">HTML</li>
+                            <li class="list-group-item">CSS</li>
+                            <li class="list-group-item">JavaScript</li>
+                        </ul>
                     </div>
 
-                    <div className="frameworks__container">
-                        <div className="header">
-                            <div className="title">Frameworks</div>
-                        </div>
-                        <div className="data">
-                            <div className="data_item">React</div>
-                            <div className="data_item">Node</div>
-                            <div className="data_item">Wordpress</div>
-                            <div className="data_item">Django</div>
-                        </div>
+                    <div className="card frameworks__container">
+                        <div class="card-header ">Frameworks</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">ReactJS</li>
+                            <li class="list-group-item">NodeJS</li>
+                            <li class="list-group-item">ExpressJS</li>
+                            <li class="list-group-item">Django</li>
+                        </ul>
                     </div>
 
-                    <div className="tools__container">
-                        <div className="header">
-                            <div className="title">Tools</div>
-                        </div>
-                        <div className="data">
-                            <div className="data_item">Bash</div>
-                            <div className="data_item">Git</div>
-                            <div className="data_item">Github</div>
-                            <div className="data_item">Gitlab</div>
-                            <div className="data_item">Bitbucket</div>
-                            <div className="data_item">Jira</div>
-                            <div className="data_item">Confluence</div>
-                        </div>
+                    <div className="card tools__container">
+                        <div class="card-header ">Tools</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Bash</li>
+                            <li class="list-group-item">Git</li>
+                            <li class="list-group-item">Github</li>
+                            <li class="list-group-item">Gitlab</li>
+                            <li class="list-group-item">Bitbucket</li>
+                            <li class="list-group-item">Jira</li>
+                            <li class="list-group-item">Confluence</li>
+                        </ul>
                     </div>
 
-                    <div className="design__container">
-                        <div className="header">
-                            <div className="title">Design</div>
-                        </div>
-                        <div className="data">
-                            <div className="data_item">Figma</div>
-                            <div className="data_item">Adobe XD</div>
-                        </div>
+                    <div className="card design__container">
+                        <div class="card-header ">Design</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Figma</li>
+                            <li class="list-group-item">Adobe XD</li>
+                        </ul>
                     </div>
                 </div>
             </div>

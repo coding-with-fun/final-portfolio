@@ -10,9 +10,7 @@ const ContactMe = () => {
             </div>
 
             <div className="info__container container">
-                <div className="social_icons">
-                    <SocialIcons />
-                </div>
+                <SocialIcons />
 
                 <div className="map__container">
                     <MapContainer />

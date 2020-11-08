@@ -18,16 +18,20 @@
     .info__container {
         display: flex;
         flex-wrap: wrap;
+        margin-top: 40px;
 
         .social_icons {
             flex: 1;
             display: grid;
             grid-template-rows: repeat(6, auto);
 
-            img {
-                height: 25px;
-                width: 25px;
+            a {
                 margin: auto;
+
+                img {
+                    height: 25px;
+                    width: 25px;
+                }
             }
         }
 
@@ -43,12 +47,13 @@
     .contact_me__container {
         .info__container {
             flex-direction: column;
+            margin-top: 20px;
 
             .social_icons {
                 grid-template-columns: repeat(6, auto);
                 grid-template-rows: none;
 
-                img {
+                a {
                     margin: 20px auto;
                 }
             }

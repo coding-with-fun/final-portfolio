@@ -10,33 +10,53 @@ const About = () => {
             <div className="container">
                 <div className="about__content">
                     <p>
-                        Hello! I'm Harsh, a software engineer based in
-                        Ahmedabad, Gujarat.
+                        Hello! I'm <b>Harsh Patel</b>, a software engineer based
+                        in Ahmedabad, Gujarat.
                     </p>
                     <p>
-                        I enjoy creating things that live on the internet,
-                        whether that be websites, applications, or anything in
-                        between. My goal is to always build products that
-                        provide pixel-perfect, performance experiences.
+                        I enjoy creating things that live on the internet by the
+                        name <b>Arc Coder</b>, whether that be websites,
+                        applications, or anything in between. My goal is to
+                        always build products that provide pixel-perfect,
+                        performance experiences.
                     </p>
                     <p>
                         Before completing my graduation, I had done internship
                         as a <span>Python Developer</span> at{" "}
-                        <a href="https://www.crestdatasys.com/">
+                        <a
+                            href="https://www.crestdatasys.com/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             Crest Data Systems
                         </a>{" "}
                         where I worked with{" "}
-                        <a href="https://www.splunk.com/">
+                        <a
+                            href="https://www.splunk.com/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <span>Splunk software</span>
                         </a>
                         . Shortly after graduating from{" "}
-                        <a href="https://www.gtu.ac.in/">
+                        <a
+                            href="https://www.gtu.ac.in/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             Gujarat Technological University
                         </a>
                         , I joined the engineering team at{" "}
-                        <a href="https://softvan.in/">Softvan</a> where I work
-                        as a <span>React Developer</span> on a wide variety of
-                        interesting and meaningful projects on a daily basis.
+                        <a
+                            href="https://softvan.in/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Softvan
+                        </a>{" "}
+                        where I work as a <span>React Developer</span> on a wide
+                        variety of interesting and meaningful projects on a
+                        daily basis.
                     </p>
                 </div>
 

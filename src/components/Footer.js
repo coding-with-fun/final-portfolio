@@ -6,10 +6,10 @@ const Footer = () => {
         <div className="footer__container">
             <ScrollToTop />
 
-            <div className="text__container">
+            <div className="text__container container">
                 <div className="harsh__container">
                     <div className="data__container">
-                        Made with{" "}
+                        Handcrafted with{" "}
                         <span>
                             <i className="fas fa-heart"></i>
                         </span>{" "}
@@ -26,20 +26,6 @@ const Footer = () => {
                         className="link__container"
                     >
                         Arc Coder | Harsh Patel
-                    </a>
-                </div>
-
-                <hr />
-
-                <div className="radhika__container">
-                    <div className="data__container">Logo designed by</div>
-                    <a
-                        href="https://instagram.com/fashion_illustration98"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="link__container"
-                    >
-                        Radhika Somani
                     </a>
                 </div>
             </div>

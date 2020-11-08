@@ -18,7 +18,11 @@ const Project = ({ data }) => {
 
                 <div className="links">
                     <div className="repo_link">
-                        <a href={data.git_repo}>
+                        <a
+                            href={data.git_repo}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <span>
                                 <i className="fab fa-github"></i>
                             </span>
@@ -27,7 +31,11 @@ const Project = ({ data }) => {
                     </div>
 
                     <div className="clone_link">
-                        <a href={data.clone_link}>
+                        <a
+                            href={data.clone_link}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <span>
                                 <i className="fab fa-github"></i>
                             </span>

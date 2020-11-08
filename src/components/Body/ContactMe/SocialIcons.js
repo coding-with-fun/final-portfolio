@@ -9,14 +9,46 @@ import Twitter from "../../../assets/socialIcons/twitter.svg";
 
 const SocialIcons = () => {
     return (
-        <>
-            <img src={Gmail} alt="Gmail Logo" />
-            <img src={Github} alt="Github Logo" />
-            <img src={LinkedIn} alt="LinkedIn Logo" />
-            <img src={Codepen} alt="Codepen Logo" />
-            <img src={Instagram} alt="Instagram Logo" />
-            <img src={Twitter} alt="Twitter Logo" />
-        </>
+        <div className="social_icons">
+            <a href="mailto:dev@arccoer.in" target="_blank" rel="noreferrer">
+                <img src={Gmail} alt="Gmail Logo" />
+            </a>
+            <a
+                href="https://github.com/arc-coder"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <img src={Github} alt="Github Logo" />
+            </a>
+            <a
+                href="https://linkedin.com/in/harshpatel2124"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <img src={LinkedIn} alt="LinkedIn Logo" />
+            </a>
+            <a
+                href="https://codepen.io/arc-coder"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <img src={Codepen} alt="Codepen Logo" />
+            </a>
+            <a
+                href="https://www.instagram.com/arc__coder"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <img src={Instagram} alt="Instagram Logo" />
+            </a>
+            <a
+                href="https://twitter.com/arc__coder"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <img src={Twitter} alt="Twitter Logo" />
+            </a>
+        </div>
     );
 };
 

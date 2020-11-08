@@ -42,13 +42,6 @@ const Navbar = () => {
                         About
                     </a>
                     <a
-                        href="#skills"
-                        className="skills_link"
-                        onClick={() => toggleMenu()}
-                    >
-                        Skills
-                    </a>
-                    <a
                         href="#projects"
                         className="projects_link"
                         onClick={() => toggleMenu()}

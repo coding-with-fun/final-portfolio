@@ -15,5 +15,39 @@
 
     .about__content {
         text-align: justify;
+
+        span {
+            color: #ff0000;
+            font-weight: 700;
+        }
+
+        a {
+            text-decoration: none;
+            color: #212529;
+            font-weight: 600;
+        }
+    }
+
+    hr {
+        border-top: 4px solid rgba(0, 0, 0, 0.1);
+        margin: 1.5rem auto;
+    }
+
+    .skills__content {
+        .skill__heading {
+            margin-bottom: 0.9rem;
+            font-weight: 900;
+            font-size: larger;
+        }
+
+        .skill__container {
+            .skill {
+                padding: 5px 0;
+
+                .header {
+                    font-weight: 600;
+                }
+            }
+        }
     }
 }

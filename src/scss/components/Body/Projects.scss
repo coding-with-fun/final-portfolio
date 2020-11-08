@@ -65,6 +65,7 @@
 
             .links {
                 display: flex;
+                justify-content: center;
 
                 div {
                     margin: 10px 15px;
@@ -73,6 +74,8 @@
                     border-radius: 5px;
                     cursor: pointer;
                     transition: background-color 200ms linear;
+                    width: 150px;
+                    text-align: center;
 
                     a {
                         color: #212529;
@@ -144,6 +147,7 @@
 
                     span {
                         margin-bottom: 5px;
+                        text-align: center;
                     }
                 }
             }

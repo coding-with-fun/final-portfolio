@@ -32,14 +32,14 @@ const Project = ({ data }) => {
 
                     <div className="clone_link">
                         <a
-                            href={data.clone_link}
+                            href={data.website_url}
                             target="_blank"
                             rel="noreferrer"
                         >
                             <span>
-                                <i className="fab fa-github"></i>
+                                <i class="fas fa-external-link-alt"></i>
                             </span>
-                            Clone Project
+                            Website
                         </a>
                     </div>
                 </div>

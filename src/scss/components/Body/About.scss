@@ -19,6 +19,7 @@
         p {
             b {
                 color: #ff7000;
+                font-weight: 800 !important;
             }
         }
 
@@ -29,8 +30,9 @@
 
         a {
             text-decoration: none;
+            font-style: italic;
             color: #212529;
-            font-weight: 600;
+            font-weight: 700;
         }
     }
 
@@ -49,6 +51,7 @@
         .skill__container {
             .skill {
                 padding: 5px 0;
+                word-spacing: 5px;
 
                 .header {
                     font-weight: 600;

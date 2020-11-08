@@ -36,9 +36,11 @@ const About = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <span>Splunk software</span>
+                            <span style={{ fontStyle: "normal" }}>
+                                Splunk software
+                            </span>
                         </a>
-                        . Shortly after graduating from{" "}
+                        . After graduating from{" "}
                         <a
                             href="https://www.gtu.ac.in/"
                             target="_blank"

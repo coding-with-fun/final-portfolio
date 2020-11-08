@@ -10,7 +10,7 @@ import Twitter from "../../../assets/socialIcons/twitter.svg";
 const SocialIcons = () => {
     return (
         <div className="social_icons">
-            <a href="mailto:dev@arccoer.in" target="_blank" rel="noreferrer">
+            <a href="mailto:dev@arccoder.in" target="_blank" rel="noreferrer">
                 <img src={Gmail} alt="Gmail Logo" />
             </a>
             <a

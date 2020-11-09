@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className="navbar__container">
             <div className="left__container">
-                <HashLink to="/">
+                <HashLink to="/#home">
                     <div className="logo__container">Arc Coder</div>
                     <div className="short_logo__container">AC</div>
                 </HashLink>

@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div className="navbar__container">
             <div className="left__container">
-                <a href="#home">
+                <a href="/#home">
                     <div className="logo__container">Arc Coder</div>
                     <div className="short_logo__container">AC</div>
                 </a>
@@ -29,28 +29,28 @@ const Navbar = () => {
                 </div>
                 <div className="page_links">
                     <a
-                        href="#home"
+                        href="/#home"
                         className="home_link"
                         onClick={() => toggleMenu()}
                     >
                         Home
                     </a>
                     <a
-                        href="#about"
+                        href="/#about"
                         className="about_link"
                         onClick={() => toggleMenu()}
                     >
                         About
                     </a>
                     <a
-                        href="#projects"
+                        href="/#projects"
                         className="projects_link"
                         onClick={() => toggleMenu()}
                     >
                         Projects
                     </a>
                     <a
-                        href="#contact-me"
+                        href="/#contact-me"
                         className="projects_link"
                         onClick={() => toggleMenu()}
                     >

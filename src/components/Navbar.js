@@ -12,6 +12,7 @@ const Navbar = () => {
             <div className="left__container">
                 <a href="#home">
                     <div className="logo__container">Arc Coder</div>
+                    <div className="short_logo__container">AC</div>
                 </a>
             </div>
 

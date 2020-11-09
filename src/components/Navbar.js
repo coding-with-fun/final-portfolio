@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,10 +11,10 @@ const Navbar = () => {
     return (
         <div className="navbar__container">
             <div className="left__container">
-                <a href="/#home">
+                <HashLink to="/">
                     <div className="logo__container">Arc Coder</div>
                     <div className="short_logo__container">AC</div>
-                </a>
+                </HashLink>
             </div>
 
             <div className="right__container">
@@ -28,34 +29,34 @@ const Navbar = () => {
                     <div className="menu__line"></div>
                 </div>
                 <div className="page_links">
-                    <a
-                        href="/#home"
+                    <HashLink
+                        to="/#home"
                         className="home_link"
                         onClick={() => toggleMenu()}
                     >
                         Home
-                    </a>
-                    <a
-                        href="/#about"
+                    </HashLink>
+                    <HashLink
+                        to="/#about"
                         className="about_link"
                         onClick={() => toggleMenu()}
                     >
                         About
-                    </a>
-                    <a
-                        href="/#projects"
+                    </HashLink>
+                    <HashLink
+                        to="/#projects"
                         className="projects_link"
                         onClick={() => toggleMenu()}
                     >
                         Projects
-                    </a>
-                    <a
-                        href="/#contact-me"
+                    </HashLink>
+                    <HashLink
+                        to="/#contact-me"
                         className="projects_link"
                         onClick={() => toggleMenu()}
                     >
                         Contact Me
-                    </a>
+                    </HashLink>
                 </div>
             </div>
         </div>

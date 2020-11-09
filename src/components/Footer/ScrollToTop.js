@@ -13,11 +13,13 @@ const ScrollToTop = () => {
     }, [pathname]);
 
     return (
-        <div className="scroll_to_top__container" onClick={() => scrollFun()}>
-            <span>
-                <i className="fas fa-chevron-up"></i>
-            </span>
-        </div>
+        <a href="#home">
+            <div className="scroll_to_top__container">
+                <span>
+                    <i className="fas fa-chevron-up"></i>
+                </span>
+            </div>
+        </a>
     );
 };
 

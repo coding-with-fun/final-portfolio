@@ -59,4 +59,33 @@
             }
         }
     }
+
+    .resume__container {
+        display: flex;
+        justify-content: center;
+
+        p {
+            margin: 2rem 0 1rem 0;
+            cursor: pointer;
+            width: fit-content;
+            border-radius: 5px;
+            border: 1px solid #212529;
+            padding: 8px 15px;
+            transition: background-color 200ms linear;
+
+            a {
+                text-decoration: none;
+                color: #212529;
+                transition: color 200ms linear;
+            }
+        }
+
+        p:hover {
+            background-color: #212529;
+
+            a {
+                color: #ffffff;
+            }
+        }
+    }
 }

@@ -89,6 +89,18 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="resume__container">
+                    <p>
+                        <a
+                            href="https://drive.google.com/file/d/1a0Axdy3LoJQ-YpVct7igbUzoMxQVDLFF/view?usp=sharing"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Resume
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
     );

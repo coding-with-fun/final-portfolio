@@ -37,7 +37,7 @@ const Project = ({ data }) => {
                             rel="noreferrer"
                         >
                             <span>
-                                <i class="fas fa-external-link-alt"></i>
+                                <i class="fas fa-globe"></i>
                             </span>
                             Website
                         </a>

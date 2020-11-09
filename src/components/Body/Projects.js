@@ -17,11 +17,7 @@ const Projects = () => {
             </div>
 
             <div className="load_more__btn container">
-                {data.length > 4 && (
-                    <p>
-                        <Link to="/projects">See More</Link>
-                    </p>
-                )}
+                {data.length > 4 && <Link to="/projects">See More</Link>}
             </div>
         </div>
     );
